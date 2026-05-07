@@ -11,7 +11,7 @@ public class Planets {
         System.out.println("Welcome to the Solar System with the star called " + star + ". Here you can see our planets: ");
 
 
-        List<String> planets = new ArrayList<>(List.of("Mercury", "Venus", "Earth", "Jupitor", "Saturn", "Uranus", "Neptune"));
+        List<String> planets = new ArrayList<>(List.of("Mercury", "Venus", "Earth", "Jupiter", "Saturn", "Uranus", "Neptune"));
         for (var planet : planets) {
             System.out.print(planet + " ");
         }
