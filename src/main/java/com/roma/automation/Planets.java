@@ -15,7 +15,10 @@ public class Planets {
         for (var planet : planets) {
             System.out.print(planet + " ");
         }
+        System.out.println();
+        System.out.println("Lets start our journey: ");
 
+        Mercury.printInfo();
 
     }
 }
