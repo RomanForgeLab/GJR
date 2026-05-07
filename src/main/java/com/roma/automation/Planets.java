@@ -1,6 +1,6 @@
 package com.roma.automation;
 
-import java.sql.SQLOutput;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +18,12 @@ public class Planets {
         System.out.println();
         System.out.println("Lets start our journey: ");
 
-        Mercury.printInfo();
+
+        Sun s = new Sun();
+        s.print();
+        Mercury p = new Mercury();
+        p.printInfo();
+
 
     }
 }
