@@ -18,8 +18,15 @@ public class Planets {
         System.out.println();
         System.out.println("Lets start our journey: ");
 
-        Earth p = new Earth();
-        p.printInfo();
+
+        Sun s = new Sun();
+        s.print();
+
+        Mercury p1 = new Mercury();
+        p1.printInfo();
+
+        Earth p2 = new Earth();
+        p2.printInfo();
 
     }
 }
